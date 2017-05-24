@@ -25,5 +25,3 @@ ADD default /etc/nginx/sites-available/default
 
 WORKDIR /var/www/html
 CMD  ["/run.sh"]
-EXPOSE 80
-EXPOSE 443
